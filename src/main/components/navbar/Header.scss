@@ -1,0 +1,64 @@
+.navbar-hotel {
+  background-color: #fff;
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  &__logo-hotel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  &__hotel-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar__menu-hotel {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+    
+    .navbar__menu-itemhotel {
+      margin-left: 30px;
+      color: black;
+      text-decoration: none;
+      &:hover {
+        text-decoration:none; // подчеркивание при наведении на пункт меню
+      }
+    }
+    .navbar__menu-item-hotel.active {
+      font-weight: bold;
+      color: #6c63ff;
+      text-decoration: none;
+    }
+  }
+  .navbar__button-hotel {
+    background-color: #ff3860;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  
+    &:hover {
+      background-color: #e6244f;
+    }
+  }
+  
+}
+

@@ -1,0 +1,26 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color: rgb(233, 128, 8);
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+}

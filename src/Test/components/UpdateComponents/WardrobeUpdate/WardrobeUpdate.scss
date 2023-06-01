@@ -1,0 +1,79 @@
+.single-test-update-ward {
+    display: flex;
+    flex-wrap: wrap;
+    height: 85vh;
+    margin-top: -150px;
+    margin-left: 200px;
+  }
+  
+  .cont1-update-ward {
+    width: 100%;
+  }
+  
+  .cont2-update-ward {
+    width: 20%;
+  }
+  
+  .top-update-ward {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  .bottom-update-ward {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    .left-update-ward {
+      width: 30%;
+      margin-top: -50px;
+      img {
+        width: 100%;
+      }
+    }
+    .right-update-ward {
+      width: 50%;
+      .formInput-update-ward {
+        display: flex;
+        margin-bottom: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        label {
+          font-size: 1.2rem;
+          margin-right: 1rem;
+          width: 40%;
+          text-align: right;
+        }
+        select {
+          width: 60%;
+          border: none;
+          background-color: #f0f0f0;
+          padding: 0.5rem;
+          font-size: 1.2rem;
+          color: #444;
+        }
+        button {
+          background-color: #4caf50;
+          color: #fff;
+          border: none;
+          padding: 1rem;
+          font-size: 1.2rem;
+          cursor: pointer;
+          margin-left: 230px;
+          &:hover {
+            background-color: #2e8b57;
+          }
+        }
+      }
+    }
+  }
+  

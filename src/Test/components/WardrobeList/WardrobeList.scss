@@ -1,0 +1,48 @@
+.wardrobe-list-test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .top-test-wardrobe {
+      font-size: 24px;
+      font-weight: bold;
+      
+    }
+  
+    .bottom-test-wardrobe {
+      display: flex;
+      justify-content: center;
+      
+      .box1-wardrobe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 800px;
+  
+        .right-test-wardrobe {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+  
+        .btg-wardrobe {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+  
+          button {
+            margin: 8px;
+            height: 120px;
+            width: 10px;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 20px;
+  
+          }
+        }
+      }
+    }
+  }
+  

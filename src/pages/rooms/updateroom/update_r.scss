@@ -1,0 +1,81 @@
+.new {
+
+
+  .newContainer {
+
+    .top,
+    .bottom {
+
+      h1 {
+
+      }
+
+      .left {
+
+
+        img {
+
+        }
+      }
+
+      .right {
+
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+          justify-content: space-around;
+          .formInput {
+            width: 60%;
+
+            label {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+
+              .icon {
+                cursor: pointer;
+              }
+            }
+
+            input {
+              width: 60%;
+              padding: 5px;
+              border: none;
+              border-bottom: 1px solid gray;
+            }
+            select{
+              display: flex;
+              width: 40%;
+              height: 35px;
+              gap: 10px;
+              option{
+                width: 100%;
+                padding: 5px;
+                border: none;
+                text-align: left;
+                border-bottom: 1px solid gray;
+              }
+              .description{
+                width: 60%;
+            }
+            }
+          
+          }
+
+          button {
+            display: flex;
+            flex-wrap: wrap;
+            width: 150px;
+            border: none;
+            background-color: teal;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}

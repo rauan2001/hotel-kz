@@ -1,0 +1,37 @@
+body {
+    overflow-y: scroll;
+    height: 100vh;
+    background-color: linear-gradient(to right, red, yellow);
+  }
+  
+//   .room {
+//     margin-top: 100px; // чтобы отступить от верхней части страницы
+//     height: 100vh;
+//   }
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* чтобы контейнер занимал всю высоту экрана */
+    margin-top: 100px; // чтобы отступить от верхней части страницы
+    height: 100vh;
+    background-color: linear-gradient(to right, rgb(224, 22, 22), rgb(36, 36, 24));
+  }
+  
+  .content {
+    flex-grow: 1; /* чтобы этот блок занимал всю высоту, не занятую header и footer */
+    .content-description{
+      padding-top: 20px;
+    }
+  }
+  
+  .gallery-container {
+    flex-grow: 1; /* чтобы галерея занимала все свободное пространство в блоке content */
+  }
+  
+  .footer-container {
+    margin-top: auto; /* чтобы footer был внизу страницы */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }

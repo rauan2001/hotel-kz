@@ -1,0 +1,48 @@
+.parking-list-test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .top-test-parking {
+      font-size: 24px;
+      font-weight: bold;
+      
+    }
+  
+    .bottom-test-parking {
+      display: flex;
+      justify-content: center;
+      
+      .box1-parking {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 800px;
+  
+        .right-test-parking {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+  
+        .btg-parking {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+  
+          button {
+            margin: 8px;
+            height: 120px;
+            width: 10px;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 20px;
+  
+          }
+        }
+      }
+    }
+  }
+  

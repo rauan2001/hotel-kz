@@ -1,0 +1,50 @@
+body{
+  overflow-y: scroll;
+  min-height: 100vh; /* чтобы контейнер занимал всю высоту экрана */
+  margin-top: 100px; // чтобы отступить от верхней части страницы
+  height: 100vh;
+}
+.step-two {
+  height: 100vh;
+  background-color: linear-gradient(to right, red, yellow);;
+}
+
+.booking-step-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    height: 100vh;
+    margin-bottom: 20px;
+    .roomcard {
+      margin-top: 20px;
+    }
+  
+    .parkingcard {
+      margin-top: 20px;
+    }
+  }
+  .MuiTabs-root .MuiTabs-scroller {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Переопределяет стиль при переключении между вкладками */
+  .MuiTabs-root .MuiTabs-scroller.MuiTabs-scrollable {
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* Добавляет анимацию для содержимого вкладки */
+  .MuiTabPanel-root {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Скрывает содержимое неактивных вкладок */
+  .MuiTabPanel-root:not([aria-selected="true"]) {
+    opacity: 0;
+    pointer-events: none;
+  }

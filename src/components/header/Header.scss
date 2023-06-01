@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    height: 72px;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .logo a {
+    color: #2d2d2d;
+    text-decoration: none;
+  }
+  
+  .header-links a {
+    margin-right: 16px;
+    color: #2d2d2d;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header-links a:hover {
+    color: #000;
+  }
+  
