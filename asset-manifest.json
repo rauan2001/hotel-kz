@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hotel-kz/static/css/main.1779ff9f.css",
+    "main.js": "/hotel-kz/static/js/main.724c53d5.js",
+    "static/media/f10.jpg": "/hotel-kz/static/media/f10.0fa4a212124e02efe543.jpg",
+    "static/media/fone66.jpg": "/hotel-kz/static/media/fone66.5df1b505726dd14fe928.jpg",
+    "static/media/2.jpg": "/hotel-kz/static/media/2.72ec63d976ef03c78c2b.jpg",
+    "static/media/fone7-c.jpg": "/hotel-kz/static/media/fone7-c.0aad0ec6d9cbd89a96b3.jpg",
+    "static/media/1.jpg": "/hotel-kz/static/media/1.4eae65d695f5c69b964f.jpg",
+    "static/media/slick.svg": "/hotel-kz/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/hotel-kz/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/hotel-kz/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/hotel-kz/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/hotel-kz/index.html",
+    "main.1779ff9f.css.map": "/hotel-kz/static/css/main.1779ff9f.css.map",
+    "main.724c53d5.js.map": "/hotel-kz/static/js/main.724c53d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1779ff9f.css",
+    "static/js/main.724c53d5.js"
+  ]
+}
